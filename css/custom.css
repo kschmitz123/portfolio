@@ -4972,7 +4972,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.75rem 0.75rem;
+  padding: 0.75rem 1rem;
   color: #d47c63;
   background-color: #f0d800;
   border: 1px solid none;
@@ -9904,8 +9904,9 @@ footer {
 
 .footerlinks {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px;
+  margin: 0 170px;
 }
 
 .jumbotron {
@@ -9947,8 +9948,12 @@ footer {
 }
 
 .list-group-item {
-  padding: 10px 15px;
   box-shadow: 0 2px 3px #000;
+  border-radius: 0.25rem;
+}
+
+.col-2 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -11,11 +11,9 @@ $jumbotron-bg: pink;
 $list-group-color: #d47c63;
 $list-group-bg: #f0d800;
 $list-group-border-color: none;
-//$list-group-border-width:
-//@at-root:
-
 $list-group-item-padding-y: 0.75rem;
-$list-group-item-padding-x: 0.75rem;
+$list-group-item-padding-x: 1rem;
+$list-group-border-radius: 0.25rem;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -31,8 +29,9 @@ footer {
 
 .footerlinks {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 20px;
+  margin: 0 170px;
 }
 .jumbotron {
   background-image: url(../img/20200121_111550.jpg);
@@ -67,6 +66,9 @@ footer {
   justify-content: space-around;
 }
 .list-group-item {
-  padding: 10px 15px;
   box-shadow: 0 2px 3px #000;
+  border-radius: 0.25rem;
+}
+.col-2 {
+  text-align: center;
 }
