@@ -35,3 +35,17 @@ footer {
 .card-deck {
   margin-bottom: 30px;
 }
+.container-fluid {
+  border-bottom: 1px solid black;
+  padding: 6rem 0;
+}
+
+.cv-date {
+  font-size: 1.3em;
+  text-align: end;
+}
+.cv-text {
+  font-style: italic;
+  font-weight: 700;
+  text-align: end;
+}
