@@ -64,10 +64,13 @@ footer {
 .list-group {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 .list-group-item {
   box-shadow: 0 2px 3px #000;
   border-radius: 0.25rem;
+  margin: 5px;
 }
 .col-2 {
   text-align: center;
