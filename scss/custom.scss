@@ -42,10 +42,14 @@ footer {
 
 .cv-date {
   font-size: 1.3em;
-  text-align: end;
+  text-align: center;
 }
 .cv-text {
   font-style: italic;
   font-weight: 700;
-  text-align: end;
+  text-align: center;
+}
+.cv-heading {
+  text-align: center;
+  padding-bottom: 30px;
 }
