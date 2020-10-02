@@ -9901,4 +9901,9 @@ footer {
   text-align: center;
 }
 
+.footerlinks {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=custom.css.map */
