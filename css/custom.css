@@ -9898,6 +9898,10 @@ body {
   margin: 20px;
 }
 
+.card-title {
+  font-weight: bold;
+}
+
 footer {
   text-align: center;
 }
@@ -9957,6 +9961,11 @@ footer {
 
 .col-2 {
   text-align: center;
+}
+
+.to-top {
+  display: block;
+  text-align: end;
 }
 
 /*# sourceMappingURL=custom.css.map */
