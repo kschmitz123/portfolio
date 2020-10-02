@@ -4749,7 +4749,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: pink;
   border-radius: 0.3rem;
 }
 @media (min-width: 576px) {
@@ -9912,6 +9912,26 @@ footer {
   background-position-y: top;
   background-position-x: 100%;
   background-size: 20rem;
+}
+
+.card-deck {
+  margin-bottom: 30px;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  border-bottom: 1px solid black;
+  padding: 6rem 0;
+}
+
+.cv-date {
+  font-size: 1.3em;
+  text-align: end;
+}
+
+.cv-text {
+  font-style: italic;
+  font-weight: 700;
+  text-align: end;
 }
 
 /*# sourceMappingURL=custom.css.map */
