@@ -4972,9 +4972,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.75rem 1.25rem;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 1rem;
+  color: #d47c63;
+  background-color: #f0d800;
+  border: 1px solid none;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -4987,7 +4988,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.disabled, .list-group-item:disabled {
   color: #6c757d;
   pointer-events: none;
-  background-color: #fff;
+  background-color: #f0d800;
 }
 .list-group-item.active {
   z-index: 2;
@@ -9903,7 +9904,9 @@ footer {
 
 .footerlinks {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 170px;
 }
 
 .jumbotron {
@@ -9937,6 +9940,20 @@ footer {
 .cv-heading {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.list-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-group-item {
+  box-shadow: 0 2px 3px #000;
+  border-radius: 0.25rem;
+}
+
+.col-2 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=custom.css.map */
