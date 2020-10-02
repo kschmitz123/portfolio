@@ -23,6 +23,10 @@ $list-group-border-radius: 0.25rem;
 body {
   margin: 20px;
 }
+.card-title {
+  font-weight: bold;
+}
+
 footer {
   text-align: center;
 }
@@ -64,11 +68,18 @@ footer {
 .list-group {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 .list-group-item {
   box-shadow: 0 2px 3px #000;
   border-radius: 0.25rem;
+  margin: 5px;
 }
 .col-2 {
   text-align: center;
+}
+.to-top {
+  display: block;
+  text-align: end;
 }
