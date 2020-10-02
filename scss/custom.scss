@@ -7,6 +7,7 @@ $success: #a1f0c2;
 $danger: #f0d80080;
 $warning: #ffaf99;
 $font-family-base: Arial;
+$jumbotron-bg: pink;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -30,4 +31,7 @@ footer {
   background-position-y: top;
   background-position-x: 100%;
   background-size: 20rem;
+}
+.card-deck {
+  margin-bottom: 30px;
 }
